@@ -20,6 +20,6 @@
 
 <style>
   #app {
-
+    background:#fefefe;
   }
 </style>
