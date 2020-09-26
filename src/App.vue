@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    {{message}}
     <poke-guia></poke-guia>
   </div>
 </template>
@@ -10,7 +9,7 @@
   export default {
     data() {
       return {
-        message: 'Hola en Vue',
+        message: 'Pokeguia',
       };
     },
     components:{
@@ -19,9 +18,8 @@
   }
 </script>
 
-<style scoped>
+<style>
   #app {
-    font-size: 25px;
-    font-family: "Calibri", sans-serif;
+
   }
 </style>
