@@ -77,7 +77,7 @@ export default {
                 this.pj=json;
             })
             .catch(error=>{
-                alert("Input inválido // Personaje no encontrado")
+                alert("Input inválido: personaje no encontrado. Inténtalo otra vez")
                 console.log(error)
             })
         }
